@@ -1,0 +1,20 @@
+//myage
+let myage = 2;
+//eyarlyyears
+let earlyYears = 2;
+earlyYears = earlyYears * 10.5;
+//lateryears
+laterYears = myage - 2;
+//number of dog years accounted for by your later years
+laterYears *= 4; 
+
+console.log(earlyYears);
+console.log(laterYears);
+
+//myAgeInDogYears
+let myAgeInDogYears = (earlyYears + laterYears);
+console.log(myAgeInDogYears);
+
+let name = '';
+myname = name.toLowerCase()
+console.log(`My name is ${myname}. I am ${myage} years old in human years which is ${myAgeInDogYears} years old in dog years.`);
